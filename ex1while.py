@@ -4,6 +4,6 @@ while True:
     altura = float(input('Qual altura?: '))
     if altura == 0:
         break
-    if idade >= 13 and idade < 150:
+    if idade >= 13 and altura < 150:
         mais13 += 1
 print('O número de alunos é: ',mais13)
